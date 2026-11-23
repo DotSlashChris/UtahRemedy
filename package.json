@@ -1,0 +1,25 @@
+{
+  "name": "utah-remedy",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "bash scripts/check-assets.sh && wrangler deploy --var GIT_COMMIT:$(git rev-parse --short HEAD 2>/dev/null || echo unknown)",
+    "typecheck": "tsc --noEmit",
+    "db:migrate:remote": "wrangler d1 migrations apply utah-remedy-db --remote",
+    "db:migrate:local": "wrangler d1 migrations apply utah-remedy-db --local"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "5.20261021.1",
+    "@zxing/library": "0.21.3",
+    "typescript": "7.0.2",
+    "wrangler": "4.151.3"
+  },
+  "dependencies": {
+    "uqr": "0.1.3"
+  }
+}

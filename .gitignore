@@ -1,0 +1,31 @@
+# Secrets and local environment (never commit values)
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+.env
+.env.*
+*.header
+*-token
+*.pem
+*.key
+
+# Local state, logs, data exports
+node_modules/
+.wrangler/
+logs/
+backups/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+d1-export*.sql
+*.bak
+*.bak-*
+
+# Python / OS
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db

@@ -1,0 +1,18 @@
+# Local development only (wrangler dev reads .dev.vars). Copy to .dev.vars and fill in TEST values.
+# Never put production values here, and never commit .dev.vars.
+# Production secrets are set with `npx wrangler secret put NAME`, value piped on stdin (never as a command-line argument).
+
+# Local mock DABS server (scripts/mock-dabs.py). Test overrides are ignored unless DABS_BASE_URL points away from DABS.
+DABS_BASE_URL=http://127.0.0.1:9911/dyn
+FETCHER_ENABLED=true
+DABS_TEST_MIN_GAP_MS=300
+DABS_TEST_LOCK_TTL_MS=20000
+
+# Any random string of 32+ characters for local admin endpoints.
+ADMIN_TOKEN=replace-with-32-plus-random-characters-local-only
+
+# Feedback / sign-in (optional locally). Cloudflare Turnstile publishes always-pass TEST keys.
+# TURNSTILE_SITE_KEY=1x00000000000000000000AA
+# TURNSTILE_SECRET=1x0000000000000000000000000000000AA
+# UR_FEEDBACK_BOT_TOKEN=replace-with-32-plus-random-characters-local-only
+# NOTIFY_TO=owner@example.com

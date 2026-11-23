@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Are you 21 or older? — Utah Remedy</title>
+<meta name="description" content="Utah Remedy helps you keep track of Utah liquor availability: search, watches, and drop alerts for Utah DABS products. Independent; not affiliated with Utah DABS.">
+<meta name="theme-color" content="#14181f">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<header class="site-header"><div class="wrap"><a class="brand" href="/"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M8 48 L22 30 L30 38 L40 22 L56 48 Z" fill="#b5523b"/><path d="M26 10 h12 v6 c0 2 4 4 4 9 v25 a3 3 0 0 1-3 3 H25 a3 3 0 0 1-3-3 V25 c0-5 4-7 4-9 z" fill="#d39a3a" stroke="#f6f1e7" stroke-width="2"/></svg>Utah Remedy</a></div></header>
+<main>
+<div class="wrap"><div class="panel">
+  <p class="eyebrow">Before we pour</p>
+  <h1>Are you 21 or older?</h1>
+  <p class="muted">Utah Remedy is for adults of legal drinking age. Please enter your date of birth. We don&rsquo;t store it. We only remember that you passed, for 30 days, using a cookie.</p>
+  <div id="gate-error" class="error" role="alert" hidden>Please enter a valid date of birth and check the confirmation box.</div>
+  <form method="post" action="/gate">
+    <input type="hidden" name="next" value="/">
+    <fieldset>
+      <legend>Date of birth</legend>
+      <div class="dob">
+        <div><label class="small" for="month">Month</label><input id="month" name="month" type="number" inputmode="numeric" min="1" max="12" placeholder="MM" required></div>
+        <div><label class="small" for="day">Day</label><input id="day" name="day" type="number" inputmode="numeric" min="1" max="31" placeholder="DD" required></div>
+        <div><label class="small" for="year">Year</label><input id="year" name="year" type="number" inputmode="numeric" min="1900" max="2026" placeholder="YYYY" required></div>
+      </div>
+    </fieldset>
+    <label class="check"><input type="checkbox" name="affirm" value="yes" required><span>I confirm I am 21 or older and the date above is accurate.</span></label>
+    <button class="btn" type="submit">Enter Utah Remedy</button>
+  </form>
+  <p class="muted fine">By entering you agree to our <a href="/terms">Terms</a> and <a href="/privacy">Privacy Policy</a>.</p>
+</div></div>
+</main>
+<footer class="site-footer"><div class="wrap">&copy; 2026 Utah Remedy. For adults 21 and older. Please drink responsibly.</div></footer>
+</body>
+</html>

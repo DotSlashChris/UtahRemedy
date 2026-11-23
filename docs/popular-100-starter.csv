@@ -1,0 +1,101 @@
+rank,sku,name,size,category_type,status,price_usd,statewide_store_qty,warehouse_qty,on_order_qty,reason
+1,018006,BUFFALO TRACE BOURBON 750ml,750 ml,Bourbon / WHISKEY - BOURBON & TENNESSEE,L,30.99,37,0,198,Utah's most-searched everyday hunted bourbon; Limited (L) and only ~40 bottles statewide
+2,006650,BRUICHLADDICH OCTOMORE 16.1 700ml,700 ml,Scotch / ALLOCATED SPIRIT,L,204.99,5,24,0,"Bruichladdich Octomore 16.1; 'Allocated Spirit' category, L status, 5 bottles statewide"
+3,088739,CLASE AZUL ANEJO TEQUILA 750ml,750 ml,Tequila / TEQUILA - REPOSADO & ANEJO,L,560.02,12,0,4,"Clase Azul Añejo; Limited, low count"
+4,905253,OPUS ONE '22 750ml,750 ml,Wine / RED VARIETAL - CABERNET,L,438.47,24,0,0,Opus One 2022; Limited
+5,017917,ELIJAH CRAIG BARREL PROOF 750ml,750 ml,"Bourbon / WHISKEY - BOURBON SINGLE BARREL, BATCH",L,74.99,173,204,0,Elijah Craig Barrel Proof batches sell through fast; Limited
+6,006652,BRUICHLADDICH OCTOMORE 16.3 700ml,700 ml,Scotch / ALLOCATED SPIRIT,L,279.99,5,0,0,"Bruichladdich Octomore 16.3; 'Allocated Spirit' category, L status, 5 bottles statewide"
+7,016906,BOOKERS BOURBON 750ml,750 ml,"Bourbon / WHISKEY - BOURBON SINGLE BARREL, BATCH",L,99.99,240,1674,0,Booker's batch releases; Limited; widely sought
+8,018358,FOUR ROSES CASK STRENGTH BARREL 750ml,750 ml,"Bourbon / WHISKEY - BOURBON SINGLE BARREL, BATCH",L,99.99,43,0,0,"Four Roses Cask Strength single barrel; Limited, low statewide count"
+9,005744,MACALLAN SHERRY OAK 18 YR 750ml,750 ml,Scotch / WHISKEY - SCOTCH SINGLE MALT,L,419.99,5,0,0,"Macallan Sherry Oak 18; Limited, 5 bottles statewide"
+10,088741,CLASE AZUL REPOSADO TEQUILA 750ml,750 ml,Tequila / TEQUILA - REPOSADO & ANEJO,L,185.17,228,0,105,"Clase Azul Reposado; Limited, top-searched gift tequila"
+11,910529,CAYMUS CABERNET SP SLCT 2021 750ml,750 ml,Wine / RED VARIETAL - CABERNET,L,179.99,143,0,21,Caymus Special Selection 2021; Limited
+12,022315,WOODFORD RESERVE BATCH PROOF 700ml,700 ml,Bourbon / SPIRIT OFFER,L,149.99,11,0,0,Woodford Reserve Batch Proof annual release; very low statewide count
+13,049066,REMY MARTIN LOUIS XIII 700ml,700 ml,Cognac / BRANDY - COGNAC & ARMAGNAC,L,4199.99,18,0,0,"Rémy Martin Louis XIII; Limited, 18 statewide"
+14,005934,MACALLAN DOUBLE CASK 18 YR 750ml,750 ml,Scotch / WHISKEY - SCOTCH SINGLE MALT,L,379.99,10,0,0,"Macallan Double Cask 18; Limited, low count"
+15,022316,WOODFORD RESERVE DBL DBL OAKED 700ml,700 ml,"Bourbon / WHISKEY - BOURBON SINGLE BARREL, BATCH",L,199.99,59,78,0,Woodford Double Double Oaked annual release; Limited
+16,005932,MACALLAN DOUBLE CASK 15 YR 750ml,750 ml,Scotch / WHISKEY - SCOTCH SINGLE MALT,L,179.99,110,0,7,Macallan Double Cask 15; Limited
+17,024746,SPEAKEASY BOURBON BY WILLETT 750ml,750 ml,Bourbon / ALLOCATED SPIRIT,L,44.99,20,0,0,"Willett-made bourbon; Limited, low count"
+18,087360,CLASE AZUL PLATA TEQUILA 750ml,750 ml,Tequila / TEQUILA - SILVER,L,160.09,165,912,25,Clase Azul Plata; Limited
+19,461980,DOMINUS ESTATE 750ml,750 ml,Wine / RED VARIETAL - CABERNET,L,309.85,20,0,0,Dominus Estate; Limited
+20,027928,JOSEPH MAGNUS BOURBON 750ml,750 ml,Bourbon / ALLOCATED SPIRIT,L,99.99,47,0,0,"Joseph Magnus; Limited, collector favorite"
+21,005535,MACALLAN RARE CASK 750ml,750 ml,Scotch / WHISKEY - SCOTCH SINGLE MALT,L,359.99,40,33,0,Macallan Rare Cask; Limited
+22,016679,BASIL HAYDEN 10 YR 750ml,750 ml,Bourbon / ALLOCATED SPIRIT,L,84.99,26,0,0,Basil Hayden 10 Year limited release; DABS 'Allocated Spirit' category but L status (not in B1)
+23,006295,MACALLAN CLASSIC CUT 2023 EDTN 750m,750 ml,Scotch / WHISKEY - SCOTCH SINGLE MALT,L,139.99,6,0,0,Macallan Classic Cut annual cask-strength release; Limited
+24,021492,SHENK'S SOUR MASH WHISKEY 750ml,750 ml,Bourbon / ALLOCATED SPIRIT,L,120.41,24,114,0,Michter's Shenk's Homestead annual release; DABS 'Allocated Spirit' category but L status (not in B1)
+25,087991,DON JULIO ULTIMA RESERVA TEQUILA 750,750 ml,Tequila / TEQUILA - REPOSADO & ANEJO,L,399.99,131,30,0,Don Julio Última Reserva; Limited
+26,066685,CHARTREUSE GREEN 700ml,700 ml,Liqueur / LIQUEURS - BITTERS & HERBAL,L,71.99,104,516,150,"Green Chartreuse; Limited, nationally scarce since 2023"
+27,923258,JOSEPH PHELPS INSIGNIA 2019 750ml,750 ml,Wine / RED GENERIC - RED TABLE & PROPRIETARY,L,364.99,31,0,9,Joseph Phelps Insignia 2019; Limited
+28,017092,BULLEIT BOURBON BARREL STRENGTH 750ml,750 ml,"Bourbon / WHISKEY - BOURBON SINGLE BARREL, BATCH",L,50.99,19,0,20,"Bulleit Barrel Strength; Limited, low count"
+29,004090,ARDBEG CORRYVRECKEN SINGLE MAL 750ml,750 ml,Scotch / WHISKEY - SCOTCH SINGLE MALT,L,129.99,42,0,20,Ardbeg Corryvreckan; Limited
+30,024931,WHISTLEPIG BOSS HOG XII: FTHR FLM 750ml,750 ml,"Bourbon / WHISKEY - BOURBON SINGLE BARREL, BATCH",L,599.99,5,12,0,WhistlePig Boss Hog XII annual release; 5 bottles statewide
+31,004111,ARDBEG UIGEADAIL SCOTCH 750ml,750 ml,Scotch / WHISKEY - SCOTCH SINGLE MALT,L,94.99,28,48,14,Ardbeg Uigeadail; Limited
+32,084517,DON JULIO 1942 YEAR OF THE HORSE 750ml,750 ml,Tequila / SPIRIT OFFER,T,169.99,16,0,0,"Don Julio 1942 Year of the Horse edition; Trial (T), low count"
+33,975204,SHAFER CABERNET HILLSIDE'22 750ml,750 ml,Wine / RED VARIETAL - CABERNET,L,395.08,22,0,0,Shafer Hillside Select 2022; Limited
+34,100793,WHISTLEPIG 18 YR DOUBLE MALT 750ml,750 ml,Bourbon / WHISKEY - BOURBON & TENNESSEE,L,399.99,2,0,0,WhistlePig 18 Year Double Malt; 2 bottles statewide
+35,102422,ARDBEG 17YR 750ml,750 ml,Scotch / ALLOCATED SPIRIT,T,189.99,11,42,0,"Ardbeg 17 Year re-release; 'Allocated Spirit' category, Trial (T) status"
+36,019561,MAKERS MARK WOOD FINISHING SERIES 750ml,750 ml,Bourbon / WHISKEY - BOURBON & TENNESSEE,L,69.99,5,132,0,Maker's Mark Wood Finishing Series annual release; Limited
+37,004113,HENNESSY PARADIS 750ml,750 ml,Cognac / BRANDY - COGNAC & ARMAGNAC,L,1399.99,17,0,0,"Hennessy Paradis; Limited, low count"
+38,027114,PIKESVILLE RYE 110 WHISKEY 750ml,750 ml,Rye / WHISKEY - RYE,L,54.99,61,6,0,"Pikesville 110 Rye; Limited, hunted rye"
+39,100854,ARDBEG TRAIGH BHAN 19 YEAR 750ml,750 ml,Scotch / WHISKEY - SCOTCH SINGLE MALT,L,299.99,7,0,3,Ardbeg Traigh Bhan 19 Year batch release; Limited
+40,088709,TEARS OF LLORONA EXTRA ANEJO TEQU 1000ml,1000 ml,Tequila / TEQUILA - REPOSADO & ANEJO,L,279.99,38,6,0,"Tears of Llorona Extra Añejo; Limited, collector favorite"
+41,900115,HARLAN ESTATE'21 750ml,750 ml,Wine / ALLOCATED WINE,L,2225.45,3,9,0,"Harlan Estate 2021; DABS 'Allocated Wine' category, L status, 3 statewide"
+42,948370,MICHTER'S SOUR MASH WHISKEY 750ml,750 ml,Bourbon / WHISKEY - BOURBON & TENNESSEE,L,49.02,156,90,0,Michter's US*1 Sour Mash; Limited
+43,005426,LAGAVULIN DISTILLERS EDITION 750ml,750 ml,Scotch / WHISKEY - SCOTCH SINGLE MALT,L,114.99,97,204,0,Lagavulin Distillers Edition; Limited
+44,019880,MICHTER'S US 1 BOURBON SMALL BATCH 750ml,750 ml,Bourbon / WHISKEY - BOURBON & TENNESSEE,1,49.02,26,0,0,Michter's US*1 Bourbon; general status but only 26 bottles statewide (moderate distribution)
+45,016017,HEAVEN HILL BOTTLED IN BOND 750ml,750 ml,Bourbon / WHISKEY - BOURBON & TENNESSEE,L,39.99,162,0,0,"Heaven Hill 7 Year Bottled in Bond; Limited, hunted value bottle"
+46,005633,LAGAVULIN 8 YR 750ml,750 ml,Scotch / WHISKEY - SCOTCH BLENDED,L,74.99,106,18,20,Lagavulin 8 Year; Limited
+47,087969,TEQUILA KOMOS ANEJO CRISTALINO 750ml,750 ml,Tequila / TEQUILA - REPOSADO & ANEJO,L,129.99,56,120,1,Komos Añejo Cristalino; Limited
+48,381570,SAN GUIDO SASSICAIA 750ml,750 ml,Wine / ITALIAN RED - MISC DOC,L,315.23,21,0,0,Tenuta San Guido Sassicaia; Limited
+49,018656,HENRY MCKENNA SNGL BARREL BOURBON 750ml,750 ml,"Bourbon / WHISKEY - BOURBON SINGLE BARREL, BATCH",L,64.99,247,438,64,"Henry McKenna Single Barrel BIB; Limited, hunted value bottle"
+50,006459,LAPHROAIG ELEMENTS 700ml,700 ml,Scotch / SPIRIT OFFER,T,149.99,14,6,0,"Laphroaig Elements; Trial (T), low count"
+51,042779,RON ZACAPA XO 750ml,750 ml,Rum / RUM - IMPORTED,L,124.99,50,108,0,Ron Zacapa XO; Limited
+52,076712,BLACKENED X RABBIT HOLE WHISKEY 750ml,750 ml,American whiskey / WHISKEY - DOMESTIC,L,150.38,41,0,0,"Blackened x Rabbit Hole collab; Limited, 'Allocated Spirit'-style release"
+53,089640,PATRON PIEDRA ANEJO TEQUILA 750ml,750 ml,Tequila / TEQUILA - REPOSADO & ANEJO,X,384.99,8,0,0,"Patrón Piedra Extra Añejo; discontinued-limited (X), remaining stock"
+54,345900,ANTINORI TIGNANELLO 750ml,750 ml,Wine / ITALIAN RED - TUSCANY,L,185.99,48,24,28,Antinori Tignanello; Limited
+55,005613,HIGHLAND PARK MALT 18YR 750ml,750 ml,Scotch / WHISKEY - SCOTCH SINGLE MALT,L,174.99,56,42,0,Highland Park 18; Limited
+56,021184,RABBIT HOLE DARERINGER 750ml,750 ml,Bourbon / WHISKEY - BOURBON & TENNESSEE,L,74.99,179,198,0,Rabbit Hole Dareringer; Limited
+57,022385,GRGE DICKL LOPOLD BRS COLLBAR RYE 750ml,750 ml,Rye / WHISKEY - DOMESTIC,L,109.99,82,60,0,George Dickel x Leopold Bros collab rye; Limited release
+58,004046,ABERLOUR A'BUNADH SINGLE MALT 750ml,750 ml,Scotch / WHISKEY - SCOTCH SINGLE MALT,L,119.99,58,24,13,Aberlour A'bunadh cask strength; Limited
+59,000804,JACK DANIELS SINATRA 1000ml,1000 ml,Tennessee whiskey / WHISKEY - BOURBON & TENNESSEE,L,159.99,58,84,0,Jack Daniel's Sinatra Select; Limited
+60,089650,PATRON GRAN BURDEOS ANEJO TEQUILA 75,750 ml,Tequila / TEQUILA - REPOSADO & ANEJO,X,499.99,5,0,0,"Patrón Gran Burdeos; discontinued-limited (X), 5 bottles statewide"
+61,986614,ORNELLAIA '23 750ml,750 ml,Wine / ITALIAN RED - TUSCANY,L,333.33,30,18,0,Ornellaia 2023; Limited
+62,004381,BALVENIE PORTWOOD CASK 21YR 750ml,750 ml,Scotch / WHISKEY - SCOTCH SINGLE MALT,L,364.99,19,6,0,Balvenie 21 PortWood; Limited
+63,026595,GEORGE DICKEL SINGLE BARREL 15 YO 750ml,750 ml,Tennessee whiskey / SPIRIT OFFER,T,59.99,21,0,0,"George Dickel 15 Year Single Barrel; Trial/limited offer, low count"
+64,049156,REMY MARTIN XO 750ml,750 ml,Cognac / BRANDY - COGNAC & ARMAGNAC,L,214.99,166,0,0,Rémy Martin XO; Limited
+65,016422,HEAVEN HILL BRBN BIB PRIVATE BARREL750ml,750 ml,Bourbon / SPIRIT OFFER,T,54.99,8,0,0,"Heaven Hill BIB private barrel; Trial (T) store pick, 8 bottles statewide"
+66,005075,GLENLIVET 21YR MALT SCOTCH 750ml,750 ml,Scotch / WHISKEY - SCOTCH SINGLE MALT,L,349.99,9,6,0,"Glenlivet 21; Limited, low count"
+67,019565,MAKERS MARK PS UTAH BATCH 750ml,750 ml,Bourbon / SPIRIT OFFER,T,69.99,88,18,0,Maker's Mark Private Select Utah batch; Utah-exclusive store pick
+68,085545,PATRON EL ALTO TEQUILA 750ml,750 ml,Tequila / TEQUILA - REPOSADO & ANEJO,1,169.99,44,198,0,Patrón El Alto; general status but only 44 statewide
+69,938812,CHATEAU MARGAUX'20 750ml,750 ml,Wine / FRENCH RED - BORDEAUX,L,1153.87,21,0,0,Château Margaux 2020; Limited
+70,004644,BOWMORE 18YR SINGLE MALT SCOTC 750ml,750 ml,Scotch / WHISKEY - SCOTCH SINGLE MALT,L,249.99,10,0,0,"Bowmore 18; Limited, low count"
+71,019494,MAKERS MARK 46 CASK STRENGTH 750ml,750 ml,Bourbon / SPIRIT OFFER,T,54.99,95,0,0,Maker's Mark 46 Cask Strength; Trial (T) offer
+72,006155,OBAN 12YR SPECIAL RELEASE 750ml,750 ml,Scotch / SPIRIT OFFER,L,129.99,50,0,0,Oban 12 Special Release; Limited
+73,018627,HIGH WEST CASK STRENGTH BOURBON 750ml,750 ml,Bourbon / SPIRIT OFFER,T,69.99,56,0,0,High West Cask Strength Bourbon (Utah distillery); Trial (T) offer
+74,016601,HIGH WEST BIB STR BOURBON WHISKEY 750ml,750 ml,Bourbon / SPIRIT OFFER,T,79.99,22,0,0,"High West Bottled-in-Bond Straight Bourbon (Utah); Trial (T), low count"
+75,089330,HERRADURA SUPREMA LTD EDICION TEQUILA750,750 ml,Tequila / TEQUILA - REPOSADO & ANEJO,1,369.99,44,6,0,Herradura Selección Suprema; general status but only 44 statewide
+76,066682,CHARTREUSE YELLOW 700ml,700 ml,Liqueur / LIQUEURS - BITTERS & HERBAL,L,71.99,19,0,10,"Yellow Chartreuse; Limited, 19 statewide"
+77,491114,ORIN SWIFT CAB MERCURY HEAD 750ml,750 ml,Wine / RED VARIETAL - CABERNET,L,179.99,22,36,7,Orin Swift Mercury Head; Limited
+78,005350,JOHNNIE WALKER GREEN 750ml,750 ml,Scotch / WHISKEY - SCOTCH BLENDED,L,69.99,32,0,84,"Johnnie Walker Green Label; Limited, low count"
+79,024187,HIGH WEST PEDRO XIMENEZ SHERRY WHISKEY,750 ml (assumed; not in DABS name),American whiskey / SPIRIT OFFER,T,69.99,12,0,0,"High West PX sherry-finish release (Utah); Trial (T), low count"
+80,005242,JOHNNIE WALKER AGED 18 YR 750ml,750 ml,Scotch / WHISKEY - SCOTCH BLENDED,L,89.99,26,0,28,"Johnnie Walker 18; Limited, low count"
+81,022719,GRAIN TO GLASS HIGH RYE 700ml,700 ml,Bourbon / SPIRIT OFFER,T,129.99,77,0,0,Heaven Hill Grain to Glass High Rye; same series as an allocated B1 SKU
+82,087276,CASA DRAGONES TEQUILA JOVEN 750ml,750 ml,Tequila / TEQUILA - SILVER,1,300.13,99,48,0,Casa Dragones Joven; moderate distribution
+83,714100,ROEDERER CRISTAL'18 750ml,750 ml,Champagne / SPARKLING WINE - BRUT & BLANC DE BLANCS,L,385.36,34,0,5,Louis Roederer Cristal 2018; Limited
+84,018787,FANGED PURSUITORPHAN BARREL 750ml,750 ml,"Bourbon / WHISKEY - BOURBON SINGLE BARREL, BATCH",X,119.99,18,0,0,"Orphan Barrel Fanged Pursuit; discontinued-limited (X), collector release"
+85,015996,YAMAZAKI SINGLE MALT 12YR 750ml,750 ml,Japanese whisky / SPIRIT OFFER,L,199.99,74,420,0,"Yamazaki 12; Limited, perennial hunt"
+86,024956,WOODFORD RESERVE BARREL STRNGTH RYE700ml,700 ml,Rye / SPIRIT OFFER,X,99.99,106,0,0,"Woodford Reserve Barrel Strength Rye; discontinued-limited (X), remaining stock"
+87,016268,YAMAZAKI DISTILLERS RESERVE 750ml,750 ml,Japanese whisky / SPIRIT OFFER,L,94.99,25,96,0,Yamazaki Distiller's Reserve; Limited
+88,048816,MARTELL COGNAC XO 750ml,750 ml,Cognac / BRANDY - COGNAC & ARMAGNAC,L,269.99,43,0,0,Martell XO; Limited
+89,021067,PENELOPE BARREL STRENGTH BOURBON 750ml,750 ml,Bourbon / WHISKEY - BOURBON & TENNESSEE,1,59.99,37,0,0,Penelope Barrel Strength; general status but only 37 statewide (moderate distribution)
+90,086069,G4 TEQUILA BLANCO 750ml,750 ml,Tequila / TEQUILA - SILVER,1,49.99,152,342,0,"G4 Blanco; enthusiast favorite, moderate distribution"
+91,915382,DOM PERIGNON ROSE'10 750ml,750 ml,Champagne / SPARKLING WINE - BLANC DE NOIRS & ROSE,L,438.99,20,12,7,Dom Pérignon Rosé 2010; Limited
+92,015980,HIBIKI HARMONY 750ml,750 ml,Japanese whisky / WHISKEY - MISC IMPORTED,L,99.99,92,192,0,"Hibiki Harmony; Limited, perennial hunt"
+93,016580,BAKERS BOURBON 750ml,750 ml,"Bourbon / WHISKEY - BOURBON SINGLE BARREL, BATCH",1,69.99,150,144,0,"Baker's 7 Year single barrel; general status, moderate distribution, hunted"
+94,022199,WILD TURKEY RARE BREED BOURBON 750ml,750 ml,"Bourbon / WHISKEY - BOURBON SINGLE BARREL, BATCH",1,49.99,163,498,60,"Wild Turkey Rare Breed; general status, moderate distribution, hunted"
+95,015979,NIKKA YOICHI SINGLE MALT 750ml,750 ml,Japanese whisky / ALLOCATED SPIRIT,L,89.99,2,0,0,"Nikka Yoichi Single Malt; 'Allocated Spirit' category, L status, 2 bottles statewide"
+96,027100,SAZERAC RYE WHISKEY 6YR 750ml,750 ml,Rye / WHISKEY - RYE,1,27.99,132,0,88,"Sazerac Rye (Buffalo Trace); general status, moderate distribution, hunted"
+97,088915,CODIGO 1530 ANEJO 750ml,750 ml,Tequila / SPIRIT OFFER,T,109.99,17,30,0,"Código 1530 Añejo; Trial (T), low count"
+98,924209,KRUG GRANDE CUVEE 173RD 750ml,750 ml,Champagne / SPARKLING WINE - FRENCH & CHAMPAGNE,L,240.99,49,30,6,Krug Grande Cuvée; Limited
+99,015863,REDBREAST WHISKEY 21YR 750ml,750 ml,Irish whiskey / WHISKEY - IRISH,L,449.99,11,0,0,"Redbreast 21; Limited, low count"
+100,026484,WILLETT FAMILY STR RYE WHISKEY 4YR 750ml,750 ml,Rye / WHISKEY - RYE,1,76.99,116,186,30,"Willett Family Estate 4yr Rye; moderate distribution, hunted"

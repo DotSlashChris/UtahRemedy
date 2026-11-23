@@ -1,0 +1,81 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "utah-remedy",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-01",
+  "account_id": "ca827b3a832159e95f29d5d1d14e9b79",
+  "workers_dev": false,
+  "preview_urls": false,
+  "observability": { "enabled": true },
+  // Platform-enforced hard caps (Workers Paid). Normal use: <= ~15 ms CPU, <= ~120 subrequests per invocation.
+  "limits": { "cpu_ms": 5000, "subrequests": 300 },
+  // All DABS windows are pinned to America/Denver local time (owner-approved 2026-11-13, t80u; src/schedule.ts). Cron Triggers
+  // are UTC-only, so each expression covers the union of the window's MST (UTC-7) and MDT (UTC-6) hours and scheduled()
+  // runs the job only when the tick's local time is inside its window; other ticks are pure no-ops (no D1/KV, no lock, no
+  // run, no DABS request). Must match EXPECTED_CRONS in src/index.ts.
+  //   sweep    00:30-03:55 local (hard stop 03:55): "30-55/5 6" + "*/5 7-10"   = 06:30-10:55 UTC
+  //   perstore 04:00-10:55 local (hard stop 10:55): "*/5 10-17"                = 10:00-17:55 UTC
+  //   catalog  11:30 local, days 2-8 (paused unless KV catalog:v1:auto = on): "30 17,18 2-8"
+  //   catchup  13:00-15:55 local (hard stop 15:55): "*/5 19-22"                = 19:00-22:55 UTC (src/fetchers/catchup.ts)
+  // Until 2026-11-13 (UTC-fixed, = MST times): "30-55/5 7", "*/5 8-10", "*/5 11-17", "30 18 2-8", "*/5 20-22".
+  "triggers": { "crons": ["30-55/5 6 * * *", "*/5 7-10 * * *", "*/5 10-17 * * *", "30 17,18 2-8 * *", "*/5 19-22 * * *"] },
+  // Per-IP limit on catalog requests that MISS the Cache API (i.e. would read D1). Approximate, per data center.
+  "ratelimits": [
+    { "name": "SEARCH_LIMITER", "namespace_id": "730116", "simple": { "limit": 60, "period": 60 } }
+  ],
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page",
+    // Worker runs first on EVERY path (so the 21+ gate, disclaimer injection and security headers apply to all
+    // HTML, .html paths, APIs, /health and /internal/*), EXCEPT the exact pure-static files listed as negations,
+    // which are served directly with no Worker invocation (negations win over "/*"). Exact files, NOT "/assets/*":
+    // with not_found_handling "404-page" the asset layer answers a miss under a bypassed glob with 404.html itself,
+    // i.e. undecorated HTML without the Worker. Add new CSS/font/image files here explicitly (never .html);
+    // scripts/check-assets.sh (run by `npm run deploy`) fails if the list and public/ disagree.
+    "run_worker_first": ["/*", "!/assets/style.css", "!/favicon.svg", "!/robots.txt"]
+  },
+  "routes": [
+    { "pattern": "utahremedy.com", "custom_domain": true },
+    { "pattern": "www.utahremedy.com", "custom_domain": true }
+  ],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "utah-remedy-db",
+      "database_id": "f091ef43-8380-41c7-937c-b1168027c392",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "analytics_engine_datasets": [
+    { "binding": "EVENTS", "dataset": "utah_remedy_events" }
+  ],
+  // Feedback mail (2026-11-12; Email Sending onboarded 2026-11-17, notices + replies on t88u):
+  // owner notices + bot replies, sent ONLY from hello@utahremedy.com (Cloudflare Email Service).
+  // Failures are logged and fail closed. The owner-notice recipient is the NOTIFY_TO secret (not a var; no default).
+  "send_email": [
+    { "name": "EMAIL", "allowed_sender_addresses": ["hello@utahremedy.com"] }
+  ],
+  "kv_namespaces": [
+    { "binding": "UTAH_REMEDY_CACHE", "id": "a7e009a216034c4e8b194af12e60b473" }
+  ],
+  "vars": {
+    "APP_VERSION": "0.1.0",
+    "GIT_COMMIT": "unknown",
+    // Master switch for all DABS fetching (cron + admin). Kill switch: KV dabs:v1:kill = 1.
+    "FETCHER_ENABLED": "true",
+    // Per-store refresh: "allocated" = option B1 ON (status-A SKUs with any stock, once daily after the sweep).
+    // Option B2 (limited / status-L items) is OFF: not implemented, no setting enables it (owner decision 2026-10-22).
+    // Set to "off" to stop B1 only (the kill switch above stops everything).
+    "PERSTORE_REFRESH": "allocated"
+    // Not set yet (owner to provide): TURNSTILE_SITE_KEY (public var) + TURNSTILE_SECRET (secret) -> /feedback accepts nothing
+    // until both exist; EMAIL_DAILY_QUOTA (default 200 = the Email Sending limit; shared budget in src/mail-budget.ts:
+    // alerts 120 / sign-in 40 / feedback 30 / spare 10, hard site-wide stop 190, t99s544).
+    // Secrets: ADMIN_TOKEN, CF_ANALYTICS_TOKEN, UR_FEEDBACK_BOT_TOKEN (/__ur/* shared secret),
+    // NOTIFY_TO (owner-notice inbox; missing -> no owner notice is sent, test-send 503, feedback still stored),
+    // ADMIN_OWNER_PASSWORD (optional, >= 12 chars: owner Basic-auth password for read-only GET /__ur/admin only),
+    // CASHAPP_HANDLE and VENMO_HANDLE (optional; each hides its tip link/QR when unset or invalid),
+    // OWNER_EXCLUDE_IPS (optional; comma-separated owner IPs skipped in analytics writes).
+  }
+}

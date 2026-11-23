@@ -1,0 +1,15 @@
+# Applied ONLY to static files served directly (no Worker): the exact files negated in wrangler.jsonc run_worker_first.
+# Worker responses set their own headers (incl. CSP) in src/index.ts withHeaders().
+/assets/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Strict-Transport-Security: max-age=31536000
+  X-Frame-Options: DENY
+/favicon.svg
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Strict-Transport-Security: max-age=31536000
+  X-Frame-Options: DENY
+/robots.txt
+  X-Content-Type-Options: nosniff
+  Strict-Transport-Security: max-age=31536000
