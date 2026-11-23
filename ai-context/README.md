@@ -17,7 +17,7 @@ Nothing here is secret. Secrets live only in Cloudflare (`wrangler secret put`);
 
 ## Keeping it current
 
-Update this folder in the same pull request as every approved change:
+Update this folder in the same pull request as every approved change (the assistant opens, merges and deploys that PR itself after the owner approves the change; see `HANDOFF.md` "Workflow"):
 
 - `DECISIONS.md`: add a dated section: why, what changed, what did not change, tests run (by scope), deploy commit / worker version / time in America/Denver, live checks.
 - `HANDOFF.md`: update "Current state" and "Pending" whenever something goes live, is approved, or is put on hold.

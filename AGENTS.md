@@ -16,5 +16,6 @@ Rules for any AI agent working on Utah Remedy. Read `ai-context/README.md` next 
 - Details: `README.md` "Tests".
 
 ## Deploy and workflow
-- Branch, then pull request to `main`. Update `ai-context/DECISIONS.md` and `ai-context/HANDOFF.md` in the same PR.
-- After the owner merges: deploy from `main` with `npm run deploy` (never `wrangler deploy` directly), then verify `/health` and the change.
+- No change without the owner's explicit approval, one step at a time.
+- After approval the agent does the rest itself (owner rule t108u, the owner does not merge): branch, pull request to `main` (update `ai-context/DECISIONS.md` and `ai-context/HANDOFF.md` in the same PR), run the tests for the scope, merge the PR, pull `main`, deploy from `main` with `npm run deploy` (never `wrangler deploy` directly), verify `/health` and the change, then tell the owner it is live.
+- Docs-only PRs (no `src/`, `public/`, `migrations/` or config change) are merged without a deploy.
