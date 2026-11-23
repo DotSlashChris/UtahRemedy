@@ -11,7 +11,7 @@ Exported 2026-11-23 from the assistant's durable memory. Personal details are re
 - Always deploy with `npm run deploy`.
 - Never print secrets, tokens, passwords or the owner's IP; pipe secrets via stdin into `wrangler secret put`.
 - Standing goal: counts toward the owner's target of 1,000 combined users by January 1, 2027 (with Agenda Watch users and Off By One orders). Target only; take no unsolicited growth actions.
-- From 2026-11-23: code lives in the public GitHub repo DotSlashChris/UtahRemedy; all changes go through a branch and pull request. After the owner merges, the assistant deploys from main with `npm run deploy`.
+- From 2026-11-23: code lives in the public GitHub repo DotSlashChris/UtahRemedy; all changes go through a branch and pull request. After the owner approves a change, the assistant opens the PR, merges it itself (owner rule t108u; the owner does not merge) and deploys from main with `npm run deploy`.
 
 ## Testing by scope (owner rule 2026-11-20)
 - UI-only change (pages, CSS, copy, tip page): typecheck, quick page and feedback tests, tip QR test when relevant.

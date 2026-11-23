@@ -109,7 +109,7 @@ Always deploy with:
 npm run deploy
 ```
 
-It checks the static-asset list (`scripts/check-assets.sh`) and stamps the git short SHA into `/health`. Commit before deploying so `/health.commit` matches the code. Apply any new migration first with `npm run db:migrate:remote`. Changes go through a branch and a pull request; after the owner merges, deploy from `main`.
+It checks the static-asset list (`scripts/check-assets.sh`) and stamps the git short SHA into `/health`. Commit before deploying so `/health.commit` matches the code. Apply any new migration first with `npm run db:migrate:remote`. Changes go through a branch and a pull request; after the owner approves the change, the maintainer merges the PR and deploys from `main`.
 
 ## Layout
 

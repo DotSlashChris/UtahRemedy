@@ -31,8 +31,9 @@ Every day about 11:15 AM America/Denver, even on clean days. Contents in `ROUTIN
 
 ## Workflow
 1. Recommend one step at a time; wait for the owner's explicit approval.
-2. Work on a branch; open a pull request to `main` in `DotSlashChris/UtahRemedy`. Include `ai-context/` updates (`DECISIONS.md` section, this file) in the same PR.
-3. After the owner merges: `git pull` on `main`, run the tests for the scope, `npm run deploy`, verify live, then tell the owner it is live (commit, worker version, time in America/Denver).
+2. After approval, work on a branch and open a pull request to `main` in `DotSlashChris/UtahRemedy`. Include `ai-context/` updates (`DECISIONS.md` section, this file) in the same PR. The PR is the record of what changed and why.
+3. Run the tests for the scope, then merge the PR yourself (the owner does not merge; owner rule t108u, 2026-11-23) and delete the branch.
+4. `git pull` on `main`, `npm run deploy`, verify live, then tell the owner it is live (PR link, commit, worker version, time in America/Denver). Docs-only PRs are merged without a deploy.
 
 ## Tests by scope (owner rule 2026-11-20)
 - **UI-only** (pages, CSS, copy, tip page, feedback, sign-in): `npm run typecheck`, `python3 scripts/test-feedback.py`, `python3 scripts/test-auth.py a b c`, `node --experimental-strip-types --no-warnings scripts/test-mail-budget.ts`; add `scripts/test-tip-qr.ts` when tips/QRs change and `scripts/test-analytics-exclude.ts` when analytics changes.
